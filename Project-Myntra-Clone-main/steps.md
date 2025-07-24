@@ -196,13 +196,13 @@ pipeline {
 
     environment {
         SCANNER_HOME          = tool 'sonar-scanner'
-        DOCKER_IMAGE          = 'myntraa'
-        DOCKER_REGISTRY       = 'abhipraydh96'
+        DOCKER_IMAGE          = 'myntra'
+        DOCKER_REGISTRY       = 'saurabh152001'
         DOCKER_CREDENTIALS_ID = 'docker-cred'
-        MANIFEST_FILE         = 'k8s/deployment.yml'
+        MANIFEST_FILE         = 'Project-Myntra-Clone-main/k8s/deployment.yml'
         GIT_REPO_NAME         = 'Project-Myntra-Clone'
-        GIT_USER_NAME         = 'abhipraydhoble'
-        GIT_EMAIL             = 'abhipraydh96@gmail.com'
+        GIT_USER_NAME         = 'Saurabhsarate'
+        GIT_EMAIL             = 'saurabhsarate@gmail.com'
     }
 
     stages {
@@ -279,6 +279,7 @@ pipeline {
         }
     }
 }
+
 
 ```
 
