@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myntra
-        image: saurabh152001/myntra:17
+        image: saurabh152001/myntra:18
         ports:
         - containerPort: 3000
 
